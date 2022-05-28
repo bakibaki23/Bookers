@@ -1,0 +1,129 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,p {
+  color: #333;
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0px;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+table {
+  width: 780px;
+  border-collapse: separate;
+  border-spacing: 2px;
+  table-layout: fixed;
+}
+
+.col1 {
+  width: 150px
+}
+
+.col2 {
+  width: 320px;
+}
+
+.col3 {
+  width: 40px;
+}
+
+.col4 {
+  width: 35px;
+}
+
+.col5 {
+  width: 55px;
+}
+
+th {
+  padding-bottom: 5px;
+  text-align: center;
+  vertical-align: inherit;
+}
+
+td {
+  padding: 0px 5px 7px 5px;
+  word-wrap: break-word;
+}
+
+.link-btn {
+  color: #333;
+  line-height: 18px;
+}
+
+.link-btn:visited {
+  color: grey;
+}
+
+.link-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+#notice {
+  color: green;
+}
+
+.alert_message {
+  width: 500px;
+  position: relative;
+  margin: 2em 0px;
+  padding: 60px 85px 40px 85px;
+  border: 2px solid red;
+  background-color: #f9f7f2;
+}
+
+#alert {
+  width: 497px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 30px;
+  padding: 0 15px;
+  color: #fff;
+  background-color: #cc0000;
+  font-weight: bold;
+}
+
+li{
+  margin: 0;
+  padding: 0
+}
